@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "gutenberg": [
+        "dist/gutenberg"
+      ],
+      "gutenberg/*": [
+        "dist/gutenberg/*"
+      ]
+    }
   }
 }
